@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: white;
+  color: #0f172a;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 48px;
+  background: #eef2ff;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e3a8a;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #475569;
+  font-weight: 500;
+}
+
+.nav-links .active {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.signin-btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  cursor: pointer;
+}
+
+/* HOME */
+.home {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.badge {
+  background: #e0e7ff;
+  color: #1e3a8a;
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.home h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.home p {
+  max-width: 650px;
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 40px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #1e3a8a;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #1e3a8a;
+  padding: 16px 32px;
+  border-radius: 12px;
+  border: 1px solid #c7d2fe;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* BOOKING */
+.booking {
+  padding: 60px;
+  background: white; /* 🔥 NO BLUE */
+}
+
+.booking h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #475569;
+  margin-bottom: 40px;
+}
+
+/* Steps */
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.step {
+  text-align: center;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.step.active {
+  color: #1e3a8a;
+}
+
+/* Card */
+.card {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 30px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+.right {
+  margin-top: 30px;
+  float: right;
+}
