@@ -1,0 +1,75 @@
+.signin-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #9aa7ff, #b59cff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-card {
+  background: white;
+  padding: 30px;
+  width: 420px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.signin-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.signin-card h2 {
+  margin-bottom: 6px;
+}
+
+.signin-card p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.signin-card label {
+  display: block;
+  text-align: left;
+  margin-top: 14px;
+  font-weight: 500;
+}
+
+.signin-card input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.forgot {
+  text-align: right;
+  font-size: 14px;
+  color: #1f3bb3;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.signin-main-btn {
+  width: 100%;
+  padding: 14px;
+  background: #1f3bb3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-text {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.signup-text span {
+  color: #1f3bb3;
+  cursor: pointer;
+}

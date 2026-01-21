@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background: #f2f6ff;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar-center span {
+  margin: 0 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navbar-center .active {
+  color: #1f3bb3;
+}
+
+.signin-old-btn {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}

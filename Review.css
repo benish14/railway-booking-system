@@ -1,0 +1,56 @@
+.review-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+.review-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.review-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.review-total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  font-size: 20px;
+  color: #1f3bb3;
+}
+
+.review-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.back-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.pay-btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #1f3bb3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
